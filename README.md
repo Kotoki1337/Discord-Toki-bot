@@ -17,6 +17,6 @@
 |          | [Saucenao](https://saucenao.com/) |
 |          | [WhatAnime](https://trace.moe/)   |
 |          | [Ascii2d](https://ascii2d.net/)   |
-|√         | 竹竹来张色图                       |
+|√         | 竹竹来张色图 ([API](https://yww.uy/setuapi))                       |
 |          | 随机复读                           |
 |          | MusicBot                          |
