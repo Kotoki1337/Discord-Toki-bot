@@ -24,4 +24,4 @@
 |√         | 竹竹来张色图 ([API](https://yww.uy/setuapi))                       |
 |          | 随机复读                           |
 |          | MusicBot                          |
-|          | osu!api                          |
+|√         | osu!api                          |
