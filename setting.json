@@ -4,9 +4,10 @@
     "pic_nmsl": "pic\\nmsl.png",
     "pic_pixiv": "https://i.imgur.com/pECIFHB.png",
     "setu_apikey": "https://api.lolicon.app/setu/?apikey=yourapihere",
-    "setukey_apikey": "https://api.lolicon.app/setu/?apikey=yourapihere&keyword=",
-    "setur18_apikey": "https://api.lolicon.app/setu/?apikey=yourapihere&r18=1",
-    "setumix_apikey": "https://api.lolicon.app/setu/?apikey=yourapihere&r18=2"
+    "setukey_apikey": "https://api.lolicon.app/setu/?apikey=yourAPIhere&keyword=",
+    "setur18_apikey": "https://api.lolicon.app/setu/?apikey=yourAPIhere&r18=1",
+    "setumix_apikey": "https://api.lolicon.app/setu/?apikey=yourAPIhere&r18=2",
+    "osu_apikey": "yourAPIhere"
 }
 
 
