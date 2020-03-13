@@ -5,7 +5,7 @@
 
 [![](https://img.shields.io/badge/Made%20with-Python%203.8.1-brightgreen)](https://www.python.org/downloads/) [![](https://img.shields.io/badge/lib-discord.py-brightgreen)](https://github.com/Rapptz/discord.py/) [![](https://img.shields.io/badge/Bot-invite%20link-blue)](https://discordapp.com/api/oauth2/authorize?client_id=687568148354170896&permissions=0&scope=bot)
 
-虽然目前WIP，但已经可以使用。机器人无义务公开，不能保证24小时的运行正常，本质为私用机器人，内加私货数量略多。
+虽然目前WIP，但已经可以使用。机器人可邀请，但无义务维护，不能保证24小时的运行正常，本质为私用机器人，内加私货数量略多。
 
 作者技术力低下，所以本项目无任何注释，并且大概率不会有部署流程。
 
