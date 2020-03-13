@@ -1,9 +1,12 @@
 {
-    "TOKEN": "yourTOKEN",
-    "Notice_channel": "yourChannel",
+    "TOKEN": "yourTokenhere",
+    "Notice_channel": "channelIDhere",
     "pic_nmsl": "pic\\nmsl.png",
     "pic_pixiv": "https://i.imgur.com/pECIFHB.png",
-    "apikey": "https://api.lolicon.app/setu/?apikey=yourAPIkey"
+    "setu_apikey": "https://api.lolicon.app/setu/?apikey=yourapihere",
+    "setukey_apikey": "https://api.lolicon.app/setu/?apikey=yourapihere&keyword=",
+    "setur18_apikey": "https://api.lolicon.app/setu/?apikey=yourapihere&r18=1",
+    "setumix_apikey": "https://api.lolicon.app/setu/?apikey=yourapihere&r18=2"
 }
 
 
