@@ -1,5 +1,5 @@
 # Discord-Toki-bot
-期初为移植 [Tsuk1ko/CQ-picfinder-robot](https://github.com/Tsuk1ko/CQ-picfinder-robot) [(Blog)](https://moe.best/projects/qq-robot-picfinder.html) 而诞生。
+起初为移植 [Tsuk1ko/CQ-picfinder-robot](https://github.com/Tsuk1ko/CQ-picfinder-robot) [(Blog)](https://moe.best/projects/qq-robot-picfinder.html) 而诞生。
 
 使用 Python 在 DiscordAPI 中重写并实现。
 
