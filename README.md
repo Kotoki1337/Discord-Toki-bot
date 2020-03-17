@@ -18,7 +18,7 @@
 
 |—— `-keyword [keyword]`      generate a random anime image with a keyword
 
-| `-setu`      WIP
+| `-osu`      WIP
 
 |—— `user`     check a user profile from osu!api
 
