@@ -22,6 +22,8 @@
 
 |—— `user`     check a user profile from osu!api
 
+| `-corona`      WIP
+
 | `-ping`      check bot connection delay(ms)
 
 ## Preview
@@ -36,7 +38,7 @@
 |          | [Saucenao](https://saucenao.com/) |
 |          | [WhatAnime](https://trace.moe/)   |
 |          | [Ascii2d](https://ascii2d.net/)   |
-|√         | 竹竹来张色图 ([API](https://yww.uy/setuapi))                       |
+|√         | 竹竹来张色图 ([API](https://yww.uy/setuapi))  |
 |          | 随机复读                           |
-|          | MusicBot                          |
+|          | COVID-19 实时数据 ([API](https://github.com/NovelCOVID/API))                 |
 |√         | osu!api                          |
