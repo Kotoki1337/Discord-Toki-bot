@@ -12,21 +12,21 @@
 **作者技术力低下，所以本项目无任何注释，代码风格十分混乱且大概率不会有部署流程。**
 
 ## Commands
-| `-setu`      generate a random anime image  —— You also can use "竹竹来张色图"
+| `sv_setu`      generate a random anime image  —— You also can use "竹竹来张色图"
 
-|—— `-r18`      generate a R18 random anime image  —— You also can use "竹竹来张R18色图"
+|—— `r18`      generate a R18 random anime image  —— You also can use "竹竹来张R18色图"
 
 |—— `-mix`	  generate a R18/non-R18 random anime image
 
 |—— `-keyword [keyword]`      generate a random anime image with a keyword
 
-| `-osu`      WIP
+| `sv_osu`      WIP
 
 |—— `user`     check a user profile from osu!api
 
-| `-corona`      WIP
+| `sv_corona`      WIP
 
-| `-ping`      check bot connection delay(ms)
+| `sv_ping`      check bot connection delay(ms)
 
 ## Preview
 
