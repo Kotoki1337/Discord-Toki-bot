@@ -20,7 +20,7 @@ class Osu(Cog_Extension):
         pass
 
     @Osucommand.command(name="user")
-    async def user_subcommand(self, ctx, msg):
+    async def user_subcommand(self, ctx, *, msg):
         url = 'https://osu.ppy.sh/api/get_user?k=' + jdata['osu_apikey'] + '&u=' + msg
         r = requests.get(url)
         data = r.json()
@@ -37,7 +37,7 @@ class Osu(Cog_Extension):
         ranked_score = data[0]['ranked_score']
 
         embed=discord.Embed(title=username + "'s osu! Profile", url='https://osu.ppy.sh/users/' + uid)
-        embed.set_author(name=username + "'s osu! Profile", url='https://osu.ppy.sh/users/' + uid,icon_url='https://osu.ppy.sh/images/flags/' + country + '.png' + country + ".png")
+        embed.set_author(name=username + "'s osu! Profile", url='https://osu.ppy.sh/users/' + uid,icon_url='https://osu.ppy.sh/images/flags/' + country + '.png')
         embed.add_field(name='Performance', value=pp, inline=True)
         embed.add_field(name='Rank', value='#' + pp_rank + '(' + country + '#' + pp_country_rank + ')', inline=True)
         embed.add_field(name='Accuracy', value=accuracy + '%', inline=True)
