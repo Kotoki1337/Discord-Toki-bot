@@ -1,11 +1,5 @@
 import discord
 from discord.ext import commands
-
-import sys
-
-sys.path.append("./core")
-from classes import Cog_Extension
-
 import json
 import urllib
 import requests
@@ -13,7 +7,9 @@ import requests
 with open('setting.json', mode='r', encoding='u8') as jfile:
     jdata = json.load(jfile)
 
-class Corona(Cog_Extension):
+class Corona(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
 
     @commands.group(name="corona", invoke_without_command=True)
     async def Coronacommand(self, ctx):
@@ -33,10 +29,5 @@ class Corona(Cog_Extension):
         embed.add_field(name='Total recovered', value=recovered, inline=False)
         await ctx.channel.send(embed=embed)
 
-
-
 def setup(bot):
     bot.add_cog(Corona(bot))
-
-
-    
