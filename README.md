@@ -44,5 +44,8 @@ Commands prefix:`sv_`
 |          | [Ascii2d](https://ascii2d.net/)   |
 |√         | 竹竹来张色图 ([API](https://yww.uy/setuapi))  |
 |          | 随机复读                           |
-|TODO      | COVID-19 实时数据 ([API](https://github.com/NovelCOVID/API))                 |
-|√         | osu!api                          |
+|WIP       | COVID-19 实时数据 ([API](https://github.com/NovelCOVID/API))                 |
+|WIP       | osu!bancho-api                          |
+|√         | osu!ppy.sb-api                          |
+|          | osu!akatsuki-api                          |
+|          | osu!ripple-api                          |
