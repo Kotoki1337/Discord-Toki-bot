@@ -12,7 +12,7 @@
 **作者技术力低下，所以本项目无任何注释，代码风格十分混乱且大概率不会有部署流程。**
 
 ## Commands
-Commands prefix:`sv_`
+Commands prefix: `!`
 
 | `setu`      generate a random anime image  —— You also can use "竹竹来张色图"
 
