@@ -14,31 +14,44 @@
 ## Commands
 Commands prefix: `!`
 
-| `setu`      generate a random anime image  —— You also can use "竹竹来张色图"
+Need Chinese command help? Just typing `!osu chinese`
 
-|—— `r18`      generate a R18 random anime image  —— You also can use "竹竹来张R18色图"
 
-|—— `mix`	  generate a R18/non-R18 random anime image
+We support **ANY** servers!
 
-|—— `keyword [keyword]`      generate a random anime image with a keyword
+Bnacho: `!bancho`
 
-| `osu`      WIP
+Ripple: `!ripple`
 
-|—— `user`     check a user profile from osu!api
+Akatsuki: `!akatsuki`
 
-| `ppy.sb`      WIP
+Gatari: `!gatari`
 
-|—— `user [username/uid] [mode(0;1;2;3)]`     check a user profile from ppy.sb-api
+Kawata: `!kawata`
 
-|—— `rx [username/uid] [mode(0;1;2;3)]`     check a user rx profile from ppy.sb-api
+ppy.sb: `!ppy.sb`
 
-|—— `pr [uid]`     check a user recent score from ppy.sb-api
 
-|—— `prrx [uid]`     check a user rx recent score from ppy.sb-api
+**[Options]**
 
-| `corona`      WIP
+Get an osu profile: `user [username/uid]`
 
-| `ping`      check bot connection delay(ms)
+If servers have relax u can also using `rx [username/uid]`
+
+Get a recent play: `pr [username/uid]`
+
+nIf servers have relax u can also using `prrx [username/uid]`
+
+
+**[Example]**
+
+``!bancho user Whitecat``
+
+`!akatsuki rx skyapple`
+
+``!ripple pr _nullptr``
+
+`!ppy.sb prrx 1092`
 
 ## Preview
 
@@ -50,12 +63,12 @@ Commands prefix: `!`
 | Progress | 功能 |
 |  ----    | ----  |
 |          | [Saucenao](https://saucenao.com/) |
-|          | [WhatAnime](https://trace.moe/)   |
-|          | [Ascii2d](https://ascii2d.net/)   |
-|√         | 竹竹来张色图 ([API](https://yww.uy/setuapi))  |
-|          | 随机复读                           |
-|WIP       | COVID-19 实时数据 ([API](https://github.com/NovelCOVID/API))                 |
-|WIP       | osu!bancho-api                          |
-|√         | osu!ppy.sb-api                          |
-|          | osu!akatsuki-api                          |
-|          | osu!ripple-api                          |
+|          | [WhatAnime](https://trace.moe/) |
+|          | [Ascii2d](https://ascii2d.net/) |
+|√         | 竹竹来张色图 ([API](https://yww.uy/setuapi)) |
+|          | 随机复读             |
+|WIP       | COVID-19 实时数据 ([API](https://github.com/NovelCOVID/API)) |
+|√         | osu!bancho-api       |
+|√         | osu!ppy.sb-api       |
+|√         | osu!akatsuki-api     |
+|√         | osu!ripple-api       |
