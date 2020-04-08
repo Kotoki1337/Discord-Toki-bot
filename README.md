@@ -12,7 +12,7 @@
 **作者技术力低下，所以本项目无任何注释，代码风格十分混乱且大概率不会有部署流程。**
 
 ## Commands
-Commands prefix:`sv_`
+Commands prefix: `!`
 
 | `setu`      generate a random anime image  —— You also can use "竹竹来张色图"
 
@@ -25,6 +25,16 @@ Commands prefix:`sv_`
 | `osu`      WIP
 
 |—— `user`     check a user profile from osu!api
+
+| `ppy.sb`      WIP
+
+|—— `user [username/uid] [mode(0;1;2;3)]`     check a user profile from ppy.sb-api
+
+|—— `rx [username/uid] [mode(0;1;2;3)]`     check a user rx profile from ppy.sb-api
+
+|—— `pr [uid]`     check a user recent score from ppy.sb-api
+
+|—— `prrx [uid]`     check a user rx recent score from ppy.sb-api
 
 | `corona`      WIP
 
