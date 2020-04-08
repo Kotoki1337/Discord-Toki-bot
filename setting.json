@@ -7,7 +7,9 @@
     "setukey_apikey": "https://api.lolicon.app/setu/?apikey=yourAPIhere&keyword=",
     "setur18_apikey": "https://api.lolicon.app/setu/?apikey=yourAPIhere&r18=1",
     "setumix_apikey": "https://api.lolicon.app/setu/?apikey=yourAPIhere&r18=2",
-    "osu_apikey": "yourAPIhere"
+    "osu_apikey": "yourAPIhere",
+    "helptext": "Need Chinese command help? Just typing `!osu chinese`\n\nWe support **ANY** servers!\nBnacho: `!bancho`\nRipple: `!ripple`\nAkatsuki: `!akatsuki`\nGatari: `!gatari`\nKawata: `!kawata`\nppy.sb: `!ppy.sb`\n\n**[Options]**\nGet an osu profile: `user [username/uid]`\nIf servers have relax u can also using `rx [username/uid]`\nGet a recent play: `pr [username/uid]`\nIf servers have relax u can also using `prrx [username/uid]`\n\n**[Example]**\n``!bancho user Whitecat``\n`!akatsuki rx skyapple`\n``!ripple pr _nullptr``\n`!ppy.sb prrx 1092`",
+    "helptextCN": "我们支持**全部**务器!\nBnacho: `!bancho`\nRipple: `!ripple`\nAkatsuki: `!akatsuki`\nGatari: `!gatari`\nKawata: `!kawata`\nppy.sb: `!ppy.sb`\n\n**[子命令]**\n获得用户个人资料: `user [username/uid]`\n如果服务器支持 Relax 可使用 `rx [username/uid]`\n获得最近成绩: `pr [username/uid]`\n如果服务器支持 Relax 可使用 `prrx [username/uid]`\n\n**[示例]**\n``!bancho user Whitecat``\n`!akatsuki rx skyapple`\n``!ripple pr _nullptr``\n`!ppy.sb prrx 1092`"
 }
 
 
