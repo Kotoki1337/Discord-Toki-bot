@@ -19,7 +19,7 @@ Need Chinese command help? Just typing `!osu chinese`
 
 We support **ANY** servers!
 
-Bnacho: `!bancho`
+Bancho: `!bancho`
 
 Ripple: `!ripple`
 
