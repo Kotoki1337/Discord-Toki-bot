@@ -19,7 +19,7 @@ Need Chinese command help? Just typing `!osu chinese`
 
 We support **ANY** servers!
 
-Bnacho: `!bancho`
+Bancho: `!bancho`
 
 Ripple: `!ripple`
 
@@ -54,6 +54,9 @@ nIf servers have relax u can also using `prrx [username/uid]`
 `!ppy.sb prrx 1092`
 
 ## Preview
+### osu!api
+![stat](https://i.imgur.com/8ZI2lit.png)
+![recent](https://i.imgur.com/dQ5ZxhM.png)
 
 ### 竹竹来张色图
 ![竹竹来张色图](https://i.imgur.com/oiVip6K.png)
