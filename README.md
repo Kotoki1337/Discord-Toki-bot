@@ -29,7 +29,6 @@ Commands prefix: `!`
 |          | [Ascii2d](https://ascii2d.net/) |
 |√         | 竹竹来张色图 ([API](https://yww.uy/setuapi)) |
 |          | 随机复读             |
-|WIP       | COVID-19 实时数据 ([API](https://github.com/NovelCOVID/API)) |
 |          | osu!bancho-api       |
 |          | osu!ppy.sb-api       |
 |          | osu!akatsuki-api     |
