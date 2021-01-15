@@ -3,7 +3,7 @@
 
 使用 Python 在 DiscordAPI 中重写并实现。
 
-[![](https://img.shields.io/badge/Made%20with-Python%203.8.1-brightgreen)](https://www.python.org/downloads/) [![](https://img.shields.io/badge/lib-discord.py-brightgreen)](https://github.com/Rapptz/discord.py/)
+[![](https://img.shields.io/badge/Made%20with-Python%203.8.5-brightgreen)](https://www.python.org/downloads/) [![](https://img.shields.io/badge/lib-discord.py-brightgreen)](https://github.com/Rapptz/discord.py/)
 
 虽然目前WIP，但已经可以使用。机器人可邀请，但无义务维护，不能保证24小时的运行正常，本质为私用机器人。
 
