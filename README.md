@@ -23,5 +23,5 @@ Commands prefix: `!`
 | | [WhatAnime](https://trace.moe/) |
 | | [Ascii2d](https://ascii2d.net/) |
 | √ | 竹竹来张色图 ([API](https://yww.uy/setuapi)) |
-| | [b40](https://www.diving-fish.com/maimaidx/prober/) |
+| √ | [b40](https://www.diving-fish.com/maimaidx/prober/) |
 | | 随机复读 |

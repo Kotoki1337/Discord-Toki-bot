@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.idea/*
+.vscode/*
+.vs/*
+Cogs/test.py
+
+discord_token.py
