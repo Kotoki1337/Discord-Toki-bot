@@ -29,7 +29,3 @@ Commands prefix: `!`
 |          | [Ascii2d](https://ascii2d.net/) |
 |√         | 竹竹来张色图 ([API](https://yww.uy/setuapi)) |
 |          | 随机复读             |
-|          | osu!bancho-api       |
-|          | osu!ppy.sb-api       |
-|          | osu!akatsuki-api     |
-|          | osu!ripple-api       |
