@@ -1,7 +1,7 @@
-from discord.ext import commands
+from disnake.ext import commands
 import urllib.parse
 import aiohttp
-import discord
+import disnake
 import json
 
 from Cogs.settings import bin_url
@@ -20,9 +20,9 @@ class Bin(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.command()
-    async def bin(self, ctx, msg=""):
-        url = f"{bin_url}{msg}"
+    @commands.slash_command(description="查询银行卡 BIN 信息")
+    async def bin(self, ctx, bin: int = commands.Param(description="Bin 头")):
+        url = f"{bin_url}{bin}"
         async with aiohttp.ClientSession() as client:
             r = await client.get(url)
             try:
@@ -72,26 +72,26 @@ class Bin(commands.Cog):
                 else:
                     payment = payment.title()
 
-                embed=discord.Embed (
+                embed=disnake.Embed (
                     description=f"{payment} {country}"
                 )
-                embed.set_author(name=f"BIN {msg} available information", icon_url=img)
+                embed.set_author(name=f"BIN {bin} available information", icon_url=img)
                 embed.add_field(name='CARD INFORMATION', value=f"**Type**: {cardType}\n**Brand**: {brand}\n**Prepaid?**: {prepaid}\n", inline=False)
                 embed.add_field(name='BANK INFORMATION', value=bankMarkdown, inline=False)
-                await ctx.channel.send(embed=embed)
+                await ctx.send(embed=embed)
             except:
-                if msg == "":
-                    embed=discord.Embed (
+                if bin == "":
+                    embed=disnake.Embed (
                         description="Use **!bin {YOUR CARD BIN}** to check an bin available"
                     )
                     embed.set_author(name=f"BIN wiki help", icon_url="https://i.imgur.com/T6zlZMD.png")
-                    await ctx.channel.send(embed=embed)
+                    await ctx.send(embed=embed)
                 else:
-                    embed=discord.Embed (
+                    embed=disnake.Embed (
                         description=f"Cannot find this BIN from API\nTry to use 6-8 digits"
                     )
-                    embed.set_author(name=f"BIN {msg} unavailable", icon_url="https://i.imgur.com/T6zlZMD.png")
-                    await ctx.channel.send(embed=embed)
+                    embed.set_author(name=f"BIN {bin} unavailable", icon_url="https://i.imgur.com/T6zlZMD.png")
+                    await ctx.send(embed=embed)
 
 def setup(bot):
     bot.add_cog(Bin(bot))

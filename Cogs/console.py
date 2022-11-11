@@ -1,6 +1,6 @@
-import discord
+import disnake
 import datetime
-from discord.ext import commands
+from disnake.ext import commands
 
 
 class Console(commands.Cog):
@@ -21,7 +21,7 @@ class Console(commands.Cog):
         print('Logged in as')
         print(self.bot.user.name)
         print(self.bot.user.id)
-        print(discord.__version__)
+        print(disnake.__version__)
         print('------')
 
         print('Servers connected to:')

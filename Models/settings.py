@@ -1,0 +1,2 @@
+# deprecated
+osu_token = ""
